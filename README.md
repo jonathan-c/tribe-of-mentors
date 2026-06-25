@@ -3,6 +3,35 @@
 Custom Claude Code skills built on top of the [mentorium](https://github.com/jonathan-c/mentorium)
 corpus of Tim Ferriss podcast transcripts.
 
+## Quick start (for collaborators)
+
+Get the `/tim` skill working in Claude Code in one command. You'll need the shared
+`MENTORIUM_TOKEN` — **ask the owner for it** (it's a secret; it is never stored in
+this repo).
+
+**If you have repo access (private repo):**
+
+```bash
+git clone git@github.com:jonathan-c/tim-ferris-skills.git
+cd tim-ferris-skills && ./install.sh
+```
+
+**If the repo is public, no clone or GitHub access needed:**
+
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/jonathan-c/tim-ferris-skills/main/install.sh)"
+```
+
+The installer copies the skill to `~/.claude/skills/tim/`, asks for your token, and
+adds `MENTORIUM_URL` + `MENTORIUM_TOKEN` to your shell profile. Restart your shell,
+then in any Claude Code session:
+
+```
+/tim I keep starting projects and never finishing them. How do I follow through?
+```
+
+Non-interactive (e.g. scripting): `MENTORIUM_TOKEN="…" ./install.sh`.
+
 ## Skills
 
 ### `/tim`
