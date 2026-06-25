@@ -1,0 +1,1 @@
+/Users/jcastillo/Desktop/code/personal/tim-ferris-skills/.claude/skills/gstack/sync-gbrain/SKILL.md
