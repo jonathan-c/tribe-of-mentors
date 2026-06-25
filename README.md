@@ -1,4 +1,4 @@
-# tim-ferris-skills
+# tribe-of-mentors
 
 Custom Claude Code skills built on top of the [mentorium](https://github.com/jonathan-c/mentorium)
 corpus of Tim Ferriss podcast transcripts.
@@ -9,17 +9,17 @@ Get the `/tim` skill working in Claude Code in one command. You'll need the shar
 `MENTORIUM_TOKEN` — **ask the owner for it** (it's a secret; it is never stored in
 this repo).
 
-**If you have repo access (private repo):**
+**One line (recommended) — no clone or GitHub account needed:**
 
 ```bash
-git clone git@github.com:jonathan-c/tim-ferris-skills.git
-cd tim-ferris-skills && ./install.sh
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/jonathan-c/tribe-of-mentors/main/install.sh)"
 ```
 
-**If the repo is public, no clone or GitHub access needed:**
+**Or clone and run it:**
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/jonathan-c/tim-ferris-skills/main/install.sh)"
+git clone https://github.com/jonathan-c/tribe-of-mentors.git
+cd tribe-of-mentors && ./install.sh
 ```
 
 The installer copies the skill to `~/.claude/skills/tim/`, asks for your token, and

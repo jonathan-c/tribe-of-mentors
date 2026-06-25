@@ -3,12 +3,12 @@
 # Installs the /tim Claude Code skill into ~/.claude/skills and sets up the two
 # env vars it needs. Run it from a clone of this repo:
 #
-#     git clone git@github.com:jonathan-c/tim-ferris-skills.git
-#     cd tim-ferris-skills && ./install.sh
+#     git clone git@github.com:jonathan-c/tribe-of-mentors.git
+#     cd tribe-of-mentors && ./install.sh
 #
 # Or, if the repo is public, one line (no clone, no GitHub access needed):
 #
-#     bash -c "$(curl -fsSL https://raw.githubusercontent.com/jonathan-c/tim-ferris-skills/main/install.sh)"
+#     bash -c "$(curl -fsSL https://raw.githubusercontent.com/jonathan-c/tribe-of-mentors/main/install.sh)"
 #
 # Non-interactive: pass the token via env —  MENTORIUM_TOKEN=... ./install.sh
 #
@@ -17,7 +17,7 @@ set -euo pipefail
 DEFAULT_URL="https://mentorium.fyi"
 DEST="$HOME/.claude/skills/tim"
 SKILL_REL=".claude/skills/tim/SKILL.md"
-RAW_URL="https://raw.githubusercontent.com/jonathan-c/tim-ferris-skills/main/$SKILL_REL"
+RAW_URL="https://raw.githubusercontent.com/jonathan-c/tribe-of-mentors/main/$SKILL_REL"
 
 mkdir -p "$DEST"
 
@@ -51,7 +51,7 @@ if grep -q "MENTORIUM_TOKEN" "$PROFILE" 2>/dev/null; then
 else
   {
     echo ""
-    echo "# tim-ferris-skills (/tim)"
+    echo "# tribe-of-mentors (/tim)"
     echo "export MENTORIUM_URL=\"$URL\""
     echo "export MENTORIUM_TOKEN=\"$TOKEN\""
   } >> "$PROFILE"
