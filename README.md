@@ -5,7 +5,7 @@ corpus of Tim Ferriss (and JRE) podcast transcripts.
 
 ## Skills
 
-### `/roundtable`
+### `/tim`
 
 Convene a roundtable of Tim Ferriss's podcast guests on whatever situation you're
 stuck on. Drop in a decision or a stuck point and get relevant mentors' distinct,
@@ -13,7 +13,7 @@ stuck on. Drop in a decision or a stuck point and get relevant mentors' distinct
 on the show. Drill down to go deeper with one guest, or have one respond to
 another.
 
-Lives in [`.claude/skills/roundtable/`](.claude/skills/roundtable/SKILL.md).
+Lives in [`.claude/skills/tim/`](.claude/skills/tim/SKILL.md).
 
 **How it works:** the skill is thin — it calls mentorium's `POST /api/roundtable`
 endpoint, which does the retrieval + grounded synthesis and validates every

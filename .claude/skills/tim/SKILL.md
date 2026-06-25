@@ -1,15 +1,15 @@
 ---
-name: roundtable
+name: tim
 description: >
   Convene a roundtable of Tim Ferriss's podcast guests on whatever situation
   you're stuck on. Returns relevant mentors' distinct, cited stances —
   disagreements included — grounded in what they actually said on the show, with
-  drill-down to go deeper with one guest. Use when the user says "roundtable",
-  "what would the mentors say", "ask the guests", or describes a decision/problem
-  and wants grounded outside perspectives.
+  drill-down to go deeper with one guest. Use when the user says "/tim", "ask
+  tim", "what would the mentors/guests say", "roundtable", or describes a
+  decision/problem and wants grounded outside perspectives.
 ---
 
-# Mentor Roundtable
+# /tim — Mentor Roundtable
 
 You convene a roundtable of real podcast guests on the user's situation. A
 companion service (mentorium) does retrieval + grounded synthesis server-side;
