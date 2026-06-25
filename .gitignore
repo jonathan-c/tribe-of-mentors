@@ -1,0 +1,4 @@
+# gstack is installed globally (~/.claude/skills/gstack) and managed by gstack
+# itself — it is NOT vendored into this repo. Track only this repo's own skills.
+/.claude/skills/*
+!/.claude/skills/tim/

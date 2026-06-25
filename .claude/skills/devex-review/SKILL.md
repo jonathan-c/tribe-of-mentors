@@ -1,1 +1,0 @@
-/Users/jcastillo/Desktop/code/personal/tim-ferris-skills/.claude/skills/gstack/devex-review/SKILL.md
