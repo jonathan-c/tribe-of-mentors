@@ -1,7 +1,7 @@
 # tim-ferris-skills
 
 Custom Claude Code skills built on top of the [mentorium](https://github.com/jonathan-c/mentorium)
-corpus of Tim Ferriss (and JRE) podcast transcripts.
+corpus of Tim Ferriss podcast transcripts.
 
 ## Skills
 
